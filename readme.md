@@ -67,10 +67,10 @@ Instructions:
         ◦ Document your API using Swagger or similar tools.
         ◦ Provide clear instructions on how to set up and run your application.
 
-Commands to use this repository:
-Pre-requisite:
-Python, PostgreSQL
+Pre-requisite:<br/>
+Python, Pgadmin<br/>
 
+Commands to use this repository:<br/>
 1. Clone this repository
 2. Create Python virtual environment and install all requirements using below cmd:
 ```pip install -r requirements.txt```
@@ -78,9 +78,9 @@ Python, PostgreSQL
 ```uvicorn main:app --reload```
 4. To test all API and see swagger document:
 http://127.0.0.1:8000/docs#/
-5. To test few book recommendation: 
-     Example 1. Book name: Year of Wonders
-     Trained ML Model Response:  [
+5. To test few book recommendation: <br/>
+     Example 1. Book name: Year of Wonders<br/>
+     Trained ML Model Response:  <br/>[
           {
             "Book-Title": "The Eight",
             "Book-Author": "Katherine Neville"
@@ -102,8 +102,8 @@ http://127.0.0.1:8000/docs#/
             "Book-Author": "Chris Bohjalian"
           }
         ]
-    Example 2: Book name: The Joy Luck Club
-    Response: [
+    Example 2: Book name: The Joy Luck Club<br/>
+    Response: <br/>[
           {
             "Book-Title": "The Kitchen God's Wife",
             "Book-Author": "Amy Tan"
@@ -125,6 +125,5 @@ http://127.0.0.1:8000/docs#/
             "Book-Author": "F. Scott Fitzgerald"
           }
         ]
-6. To run all test cases:
-python -m unittest tests.py
+
 
