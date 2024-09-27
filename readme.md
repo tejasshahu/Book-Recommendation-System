@@ -43,7 +43,7 @@ Requirements:
     ◦ Implement basic authentication for the API.
     ◦ Ensure secure communication with the database and API endpoints.
 
-Bonus:
+Extra:
     • Implement caching for the book recommendations using AWS ElastiCache.
     • Add unit and integration tests for the API endpoints and AI model.
     • Use AWS SageMaker for deploying and managing the machine learning model.
