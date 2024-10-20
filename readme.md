@@ -68,7 +68,16 @@ Instructions:
         ◦ Provide clear instructions on how to set up and run your application.
 
 Pre-requisite:<br/>
-Python, Pgadmin<br/>
+Python, PostgreSQL (Relational Database) + Pgadmin, ChromaDB (Vector Database)<br/>
+
+Note: Chroma requires SQLite version 3.35 or higher. If you experience 
+problems, either upgrade to Python 3.11 or install an older version of 
+chromadb.
+
+
+Steps to install ChromaDB:
+
+
 
 Commands to use this repository:<br/>
 1. Clone this repository
@@ -101,7 +110,7 @@ http://127.0.0.1:8000/docs#/
             "Book-Title": "Midwives: A Novel",
             "Book-Author": "Chris Bohjalian"
           }
-        ]
+        ]<br/>
     Example 2: Book name: The Joy Luck Club<br/>
     Response: <br/>[
           {
@@ -127,3 +136,6 @@ http://127.0.0.1:8000/docs#/
         ]
 
 
+Reference URL:
+
+https://www.datacamp.com/tutorial/chromadb-tutorial-step-by-step-guide
